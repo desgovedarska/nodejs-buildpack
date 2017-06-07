@@ -3,8 +3,6 @@ language: nodejs
 default_versions:
 - name: node
   version: 7.6.0
-- name: yarn
-  version: 0.21.2
 exclude_files:
 - ".git/"
 - ".gitignore"
@@ -40,11 +38,5 @@ dependencies:
   version: 7.6.0
   uri: https://buildpacks.cloudfoundry.org/dependencies/node/node-7.6.0-linux-x64-e3dd9aa2.tgz
   md5: e3dd9aa2992f6e39a29ddcf8f1603983
-  cf_stacks:
-  - cflinuxfs2
-- name: yarn
-  version: 0.21.2
-  uri: https://buildpacks.cloudfoundry.org/dependencies/yarn/yarn-v0.21.2-9ac335d4.tar.gz
-  md5: 9ac335d46f4c0af97cd08b3013cf6d87
   cf_stacks:
   - cflinuxfs2
